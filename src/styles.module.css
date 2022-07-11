@@ -1,0 +1,17 @@
+.container {
+  margin-top: 50px;
+}
+.next {
+  background-color: #f0ad4e;
+  color: rgb(10, 108, 184);
+}
+
+.previous{
+  background-color: #f0ad4e;
+  color: rgb(10, 108, 184);
+}
+
+
+.generate {
+  background-color: #0275d8;
+}
