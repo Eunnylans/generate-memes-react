@@ -1,5 +1,5 @@
 import React from "react";
-import MemeFactory from "./MemeFactory";
+import MemeFactory from "./MemeFactory"
 import Memes from "./Memes";
 
 export const App = () => {

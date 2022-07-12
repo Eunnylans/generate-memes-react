@@ -1,16 +1,18 @@
 .container {
   margin-top: 50px;
 }
-.next {
-  background-color: #f0ad4e;
-  color: rgb(10, 108, 184);
+.next,
+.previous {
+  background-color: #105edbd6;
+  color: rgb(241, 245, 249);
+  width: 70px;
+  font-size: bolder;
 }
 
-.previous{
-  background-color: #f0ad4e;
-  color: rgb(10, 108, 184);
+.button {
+  display: flex;
+  justify-content: center;
 }
-
 
 .generate {
   background-color: #0275d8;

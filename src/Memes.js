@@ -15,20 +15,21 @@ export default function Memes() {
 
   return memes.length ? (
     <div className={styles.container}>
-      <button
-        onClick={() => setMemeIndex(memeIndex - 1)}
-        className={styles.previous}
-      >
-        Previous
-      </button>
+      <div className={styles.button}>
+        <button
+          onClick={() => setMemeIndex(memeIndex - 1)}
+          className={styles.previous}
+        >
+          Previous
+        </button>
 
-      <button
-        onClick={() => setMemeIndex(memeIndex + 1)}
-        className={styles.next}
-      >
-        Next
-      </button>
-
+        <button
+          onClick={() => setMemeIndex(memeIndex + 1)}
+          className={styles.next}
+        >
+          Next
+        </button>
+      </div>
       <img src={memes[memeIndex].url} />
     </div>
   ) : (
